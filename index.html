@@ -1,26 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-  </head>
-  <body id="body">
-    <input type="text" id="nameInput" placeholder="Type your name..." />
-    <p id="greeting">Hello! friend</p>
-    <div id="box">
-      <p id="msg">Personal Mood Dashboard</p>
-      <p id="motMsg"> Secret text: <br>
-        Javascript is fun when you embrace with love, logic and consistency
-      </p>
-      <button id="grow" class="btn">Grow/Night</button>
-      <button id="shrink" class="btn">Shrink/Day</button>
-    </div> <br>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Personal Mood Dashboard</title>
+</head>
+<body id="entireBody">
+  <h1>Welcome to Personal Mood Dashboard!</h1>
+  <input type="text" name="name" id="nameInput" placeholder="Freestyle your name....">
+  <p id="greetings">Hello, friend!</p>
 
-    <footer>
-      One of the major difference between .innerText and .innerHTML are: <b>innerText</b> targets only the text inside a tag while <b>innerHTML</b> targets both the text and the tag that holds the tag,
+<div id="moodBox">
+  <p>Mood Box</p>
+<button id="btnGrow">Grow</button>
+<button id="btnShrink">Shrink</button>
+</div>
 
-    </footer>
-    <script src="script.js"></script>
-  </body>
+
+
+
+  <button id="light">Day</button>
+  <button id="dark">Night</button>
+
+  <div>
+    <h2>Secret Message!</h2>
+    <p>click the show button below to reveal</p>
+    <p id="msg">I enjoyed DOM manipulation class</p>
+    <button id="btnShow">Show</button>
+    <button id="btnHide">Hide</button>
+
+  </div>
+
+  <div>The difference between innerText and innerHTML is that the former picks the content of a tag while the later picks both the tag and the contents</div>
+
+  <script src="./script.js"></script>
+</body>
 </html>

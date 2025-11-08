@@ -72,6 +72,7 @@ body.style.display = "flex"
 body.style.flexDirection = "column"
 body.style.justifyContent ="center"
 body.style.alignItems = "center"
+body.style.minHeight = "100vh"
 
 input.addEventListener("input",()=>{
 let name = input.value;
